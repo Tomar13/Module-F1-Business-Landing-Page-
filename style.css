@@ -1,0 +1,167 @@
+#head-photo{
+    width:297px;
+    height: 148px;
+    margin-top:-39px;
+    padding-right:31px;
+}
+
+#About-Uss-photo{
+    width:302px;
+    height: 251px;
+   
+}
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+#head-photo{
+    width:454px;
+    height: 257px;
+    margin-top:202px;   
+}
+#rt-About-Uss{
+    padding-left:102px;
+}
+.About-Uss{
+    padding-bottom: 18px;
+    font-size: 56px;
+    font-weight: 508;
+}
+#About-Uss-photo{
+    width:547px;
+    height: 448px;
+}
+#head-test{
+    font-weight: 696;
+    font-size: 127px;
+    padding-top:19px;
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.slider{
+    margin-right:18px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: inline-block;;
+}
+
+.line
+{
+
+    align-items: center;
+    width:90%;
+    height:11px;
+    border-width:2; 
+    color:black !important; 
+    background-color:black !important;
+}
+
+input { 
+   width:50% !important;
+   display:flex;
+   justify-items: center !important;
+}
+
+.button{
+    width: 16% !important;
+    margin-left:323px;  
+}
+.stop{
+    top: 0;
+    position: fixed;
+    background-color: black;
+    width:100%;
+    z-index: 15;
+}
+.ARROWS{ 
+    height: 38px;
+    margin-bottom: 47px;
+    border-radius: 179px;
+    }    
+    #message {
+        opacity: 0;
+    }
+.scrolles-wrapping {
+    display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin:9px;
+}
+.card {
+    flex: 0 0 auto;
+    padding:9px;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+.mobile-view-body{
+    padding-left:22px;
+}
+.bg{
+    background-color: black;
+}
+
+.hover-box:hover{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:768px)
+{
+    .mobile-view-header-btn{
+      margin-right:9px;
+    }
+    .card{
+        width:295px;
+        height:294px;
+        margin-bottom: 9px;
+    }
+    #head-test{
+        font-weight: 513;
+        font-size: 63px;
+    }
+
+    #head-photo{
+        width:297px;
+        height: 148px;
+        margin-top:-39px;
+        padding-right:31px;
+    }
+
+    #About-Uss-photo{
+        width:302px;
+        height: 251px;
+       
+    }
+
+    .mobile-view-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #rt-About-Uss{
+       padding-left:0px !important;
+    }
+
+    .button{
+        width: 30% !important;
+        margin-left:105px;  
+    }
+
+    .mobile-view-body{
+       padding-left:14px;
+    }
+}
